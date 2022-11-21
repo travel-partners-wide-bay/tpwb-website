@@ -1,0 +1,133 @@
+:root {
+    --text-hover-color: dodgerblue;
+}
+
+body {
+    box-sizing: border-box;
+    background: whitesmoke;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 20px;
+}
+#navbar>#menu li a:hover,
+#navbar>#navbar-brand>a:hover,
+#footer>#menu li a:hover,
+#footer>#social li i:hover,
+#footer>#contact-info li a:hover{
+    color: var(--text-hover-color);
+}
+#navbar {
+    padding: 10px;
+    color: whitesmoke; 
+    background: rgb(51, 52, 52);
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: end;
+}
+
+#navbar-brand {
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+#navbar > #menu  {
+    display: flex;
+}
+#navbar > #menu li {
+    margin-right: 50px;
+}
+#navbar > #menu li a,
+#navbar > #navbar-brand > a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: large;
+}
+
+
+#menu li{
+    list-style-type: none;
+}
+
+#footer {
+    background: rgb(51, 52, 52);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    text-align: center;
+}
+#footer > #logo {
+    grid-column: 3 / 4;
+    align-self: center;
+}
+#footer #menu {
+    grid-column: 4;
+    grid-row: 1 / 3;
+    padding-left: 0;
+}
+#footer #menu a {
+    color: whitesmoke;
+    text-decoration: none;
+    line-height: 1.75;
+}
+#footer #social {
+    display: flex;
+    grid-column: 8;
+    grid-row: 2;
+    padding: 0;
+    margin-block: 0 20px;
+}
+#footer #social i {
+    padding-inline: 0 20px;
+}
+
+#footer li {
+    line-height: 2;
+}
+#footer #contact-info {
+    grid-column: 8 / 12;
+    padding-left: 0;
+    text-align: left;
+    line-height: 2;
+}
+#footer #contact-info i {
+    margin-right: 5px;
+}
+#footer #contact-info h3 {
+    color: whitesmoke;
+    font-size: x-large;
+    margin-block: auto 5px;
+}
+
+
+#footer #copyright {
+    grid-row: 3;
+    grid-column: 2 / 7;
+}
+#footer #attribution {
+    grid-row: 3;
+    grid-column: 7 / 12;
+}
+#attribution > a {
+    text-decoration: underline;
+}
+#attribution > a:hover {
+    color: var(--text-hover-color);
+}
+
+i, a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+#footer #copyright, #attribution {
+    color: whitesmoke;
+    text-align: center;
+}
+#navbar, #footer li {
+    list-style-type: none;
+}
