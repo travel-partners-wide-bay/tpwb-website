@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="649" height="553" viewBox="0 0 649 553">
+  <defs>
+    <path id="path-30" fill-rule="evenodd" d="M266.74717833 215c7.15122402 0 12.9571106 5.80588659 12.9571106 12.9571106v39.66007598c0 7.15122402-5.80588658 12.9571106-12.9571106 12.9571106s-12.95711061-5.80588658-12.95711061-12.9571106V227.9571106c0-7.15122402 5.80588659-12.95711061 12.95711061-12.95711061z"/>
+    <mask id="mask-31" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="649" height="553" x="0" y="0" fill="white"/>
+      <use fill="black" xlink:href="#path-30"/>
+    </mask>
+    <path id="path-32" fill-rule="evenodd" d="M377.35665914 215c7.15122402 0 12.95711061 5.80588659 12.95711061 12.9571106v39.66007598c0 7.15122402-5.80588659 12.9571106-12.9571106 12.9571106-7.15122403 0-12.95711062-5.80588658-12.95711062-12.9571106V227.9571106c0-7.15122402 5.8058866-12.95711061 12.95711061-12.95711061z"/>
+    <mask id="mask-33" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="649" height="553" x="0" y="0" fill="white"/>
+      <use fill="black" xlink:href="#path-32"/>
+    </mask>
+    <ellipse id="ellipse-34" cx="400.814" cy="466.917" rx="49.616" ry="49.496"/>
+    <mask id="mask-35" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="649" height="553" x="0" y="0" fill="white"/>
+      <use fill="black" xlink:href="#ellipse-34"/>
+    </mask>
+  </defs>
+  <g>
+    <rect width="71" height="101" x="19" y="127" fill="rgb(69,65,66)"/>
+    <rect width="70" height="101" x="326" y="127" fill="rgb(69,65,66)"/>
+    <rect width="71" height="101" x="172" y="127" fill="rgb(69,65,66)"/>
+    <rect width="71" height="101" x="479" y="127" fill="rgb(69,65,66)"/>
+    <rect width="71" height="101" x="402" y="127" fill="rgb(69,65,66)"/>
+    <rect width="70" height="101" x="96" y="127" fill="rgb(69,65,66)"/>
+    <rect width="71" height="101" x="249" y="127" fill="rgb(69,65,66)"/>
+    <rect width="70" height="101" x="556" y="127" fill="rgb(69,65,66)"/>
+    <text font-size="0" style="white-space:pre">
+      <tspan x="421" y="208" fill="rgb(255,255,255)" font-family="Gill Sans MT Condensed" font-size="93" font-weight="400" style="white-space:pre;text-transform:uppercase" letter-spacing="-.266">E</tspan>
+    </text>
+    <text font-size="0" style="white-space:pre">
+      <tspan x="498" y="208" fill="rgb(255,255,255)" font-family="Gill Sans MT Condensed" font-size="93" font-weight="400" style="white-space:pre;text-transform:uppercase" letter-spacing="-.266">R</tspan>
+    </text>
+    <text font-size="0" style="white-space:pre">
+      <tspan x="578" y="208" fill="rgb(255,255,255)" font-family="Gill Sans MT Condensed" font-size="93" font-weight="400" style="white-space:pre;text-transform:uppercase" letter-spacing="-.266">S</tspan>
+    </text>
+    <text font-size="0" style="white-space:pre">
+      <tspan x="342" y="208" fill="rgb(255,255,255)" font-family="Gill Sans MT Condensed" font-size="93" font-weight="400" style="white-space:pre;text-transform:uppercase" letter-spacing="-.266">N</tspan>
+    </text>
+    <text font-size="0" style="white-space:pre">
+      <tspan x="270" y="208" fill="rgb(255,255,255)" font-family="Gill Sans MT Condensed" font-size="93" font-weight="400" style="white-space:pre;text-transform:uppercase" letter-spacing="-.266">T</tspan>
+    </text>
+    <text font-size="0" style="white-space:pre">
+      <tspan x="191" y="208" fill="rgb(255,255,255)" font-family="Gill Sans MT Condensed" font-size="93" font-weight="400" style="white-space:pre;text-transform:uppercase" letter-spacing="-.266">R</tspan>
+    </text>
+    <text font-size="0" style="white-space:pre">
+      <tspan x="115" y="208" fill="rgb(255,255,255)" font-family="Gill Sans MT Condensed" font-size="93" font-weight="400" style="white-space:pre;text-transform:uppercase" letter-spacing="-.266">A</tspan>
+    </text>
+    <text font-size="0" style="white-space:pre">
+      <tspan x="37" y="208" fill="rgb(255,255,255)" font-family="Gill Sans MT Condensed" font-size="93" font-weight="400" style="white-space:pre;text-transform:uppercase" letter-spacing="-.266">P</tspan>
+    </text>
+  </g>
+  <g>
+    <rect width="71" height="100" x="19" y="19" fill="rgb(213,0,50)"/>
+    <rect width="70" height="100" x="326" y="19" fill="rgb(213,0,50)"/>
+    <rect width="71" height="100" x="172" y="19" fill="rgb(213,0,50)"/>
+    <rect width="71" height="99" x="479" y="19" fill="rgb(213,0,50)"/>
+    <rect width="70" height="100" x="96" y="19" fill="rgb(213,0,50)"/>
+    <rect width="71" height="99" x="402" y="19" fill="rgb(213,0,50)"/>
+    <rect width="71" height="100" x="249" y="19" fill="rgb(213,0,50)"/>
+    <rect width="70" height="99" x="556" y="19" fill="rgb(213,0,50)"/>
+    <text font-size="0" style="white-space:pre">
+      <tspan x="423" y="99" fill="rgb(255,255,255)" font-family="Gill Sans MT Condensed" font-size="93" font-weight="400" style="white-space:pre;text-transform:uppercase" letter-spacing="-.266">L</tspan>
+    </text>
+    <text font-size="0" style="white-space:pre">
+      <tspan x="344" y="99" fill="rgb(255,255,255)" font-family="Gill Sans MT Condensed" font-size="93" font-weight="400" style="white-space:pre;text-transform:uppercase" letter-spacing="-.266">E</tspan>
+    </text>
+    <text font-size="0" style="white-space:pre">
+      <tspan x="270" y="99" fill="rgb(255,255,255)" font-family="Gill Sans MT Condensed" font-size="93" font-weight="400" style="white-space:pre;text-transform:uppercase" letter-spacing="-.266">V</tspan>
+    </text>
+    <text font-size="0" style="white-space:pre">
+      <tspan x="191" y="99" fill="rgb(255,255,255)" font-family="Gill Sans MT Condensed" font-size="93" font-weight="400" style="white-space:pre;text-transform:uppercase" letter-spacing="-.266">A</tspan>
+    </text>
+    <text font-size="0" style="white-space:pre">
+      <tspan x="114" y="99" fill="rgb(255,255,255)" font-family="Gill Sans MT Condensed" font-size="93" font-weight="400" style="white-space:pre;text-transform:uppercase" letter-spacing="-.266">R</tspan>
+    </text>
+    <text font-size="0" style="white-space:pre">
+      <tspan x="40" y="99" fill="rgb(255,255,255)" font-family="Gill Sans MT Condensed" font-size="93" font-weight="400" style="white-space:pre;text-transform:uppercase" letter-spacing="-.266">T</tspan>
+    </text>
+  </g>
+  <g>
+    <path fill="rgb(69,65,66)" fill-rule="evenodd" d="M234 257.24497992h178c28.14766625 0 51 22.85233375 51 51V478c0 28.14766625-22.85233375 51-51 51H234c-28.14766625 0-51-22.85233375-51-51V308.24497992c0-28.14766625 22.85233375-51 51-51z"/>
+    <rect width="58.781" height="58.008" x="197.537" y="310.209" fill="rgb(255,255,255)"/>
+    <rect width="58.149" height="58.008" x="260.111" y="310.209" fill="rgb(255,255,255)"/>
+    <rect width="58.149" height="58.008" x="322.052" y="310.209" fill="rgb(255,255,255)" transform="matrix(-1 0 0 1 702.25282167 0)"/>
+    <rect width="58.149" height="58.008" x="383.993" y="310.209" fill="rgb(255,255,255)"/>
+    <rect width="58.781" height="58.008" x="197.537" y="373.892" fill="rgb(255,255,255)"/>
+    <rect width="58.781" height="58.008" x="197.537" y="437.574" fill="rgb(255,255,255)"/>
+    <rect width="57.517" height="58.008" x="260.111" y="437.574" fill="rgb(255,255,255)"/>
+    <rect width="57.517" height="58.008" x="260.111" y="373.892" fill="rgb(255,255,255)"/>
+    <rect width="58.149" height="58.008" x="322.052" y="373.892" fill="rgb(255,255,255)"/>
+    <rect width="58.149" height="58.008" x="322.052" y="437.574" fill="rgb(255,255,255)"/>
+    <rect width="58.149" height="58.008" x="383.993" y="437.574" fill="rgb(255,255,255)"/>
+    <rect width="58.149" height="58.008" x="383.993" y="373.892" fill="rgb(255,255,255)"/>
+    <g>
+      <use fill="rgb(213,0,50)" xlink:href="#path-30"/>
+      <use fill-opacity="0" stroke="rgb(255,255,255)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="8" mask="url(#mask-31)" xlink:href="#path-30"/>
+    </g>
+    <g>
+      <use fill="rgb(213,0,50)" xlink:href="#path-32"/>
+      <use fill-opacity="0" stroke="rgb(255,255,255)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="8" mask="url(#mask-33)" xlink:href="#path-32"/>
+    </g>
+    <text font-size="0" style="white-space:pre">
+      <tspan x="342.278" y="421.566" fill="rgb(213,0,50)" font-family="Gill Sans MT Condensed" font-size="52" font-weight="400" style="white-space:pre;text-transform:uppercase" letter-spacing="-1.25">Y</tspan>
+    </text>
+    <text font-size="0" style="white-space:pre">
+      <tspan x="279.072" y="421.566" fill="rgb(213,0,50)" font-family="Gill Sans MT Condensed" font-size="52" font-weight="400" style="white-space:pre;text-transform:uppercase" letter-spacing="-1.25">A</tspan>
+    </text>
+    <text font-size="0" style="white-space:pre">
+      <tspan x="215.867" y="421.566" fill="rgb(213,0,50)" font-family="Gill Sans MT Condensed" font-size="52" font-weight="400" style="white-space:pre;text-transform:uppercase" letter-spacing="-1.25">B</tspan>
+    </text>
+    <text font-size="0" style="white-space:pre">
+      <tspan x="402.323" y="357.884" fill="rgb(213,0,50)" font-family="Gill Sans MT Condensed" font-size="52" font-weight="400" style="white-space:pre;text-transform:uppercase" letter-spacing="-1.25">E</tspan>
+    </text>
+    <text font-size="0" style="white-space:pre">
+      <tspan x="339.117" y="357.884" fill="rgb(213,0,50)" font-family="Gill Sans MT Condensed" font-size="52" font-weight="400" style="white-space:pre;text-transform:uppercase" letter-spacing="-1.25">D</tspan>
+    </text>
+    <text font-size="0" style="white-space:pre">
+      <tspan x="282.865" y="357.884" fill="rgb(213,0,50)" font-family="Gill Sans MT Condensed" font-size="52" font-weight="400" style="white-space:pre;text-transform:uppercase" letter-spacing="-1.25">I</tspan>
+    </text>
+    <text font-size="0" style="white-space:pre">
+      <tspan x="209.546" y="357.884" fill="rgb(213,0,50)" font-family="Gill Sans MT Condensed" font-size="52" font-weight="400" style="white-space:pre;text-transform:uppercase" letter-spacing="-1.25">W</tspan>
+    </text>
+    <g>
+      <g>
+        <use fill="rgb(255,255,255)" xlink:href="#ellipse-34"/>
+        <use fill-opacity="0" stroke="rgb(69,65,66)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="20" mask="url(#mask-35)" xlink:href="#ellipse-34"/>
+      </g>
+      <path fill="rgb(69,65,66)" fill-rule="evenodd" d="M369.99106927 498.74516153l-10.7054965-7.37220733 1.3381889-2.34569967 12.37823473.67020707 18.06554457-21.78149375s-26.76374388-13.73911748-29.1055714-15.07951904c-2.3418275-1.34040155-2.00727986-2.6808016-2.0072798-2.77654448 5e-8-.09574287 2.67637736-3.92545634 5.35275257-4.02119771 2.67637522-.09574137 10.37095275 1.771249 10.37095275 1.771249l5.68730023-5.36159777 3.34546693 3.59035967-2.67637653 2.44144179 8.36367148 1.57976212 5.68730036-5.60095495 3.34546707 3.35100248-2.67637723 3.68609915 10.0364061 1.34040588s20.74191765-18.09539159 23.75284046-19.43579013c3.0109228-1.34039855 4.68365648.0744693 4.68365648.0744693l.33454652.67020031"/>
+      <path fill="rgb(69,65,66)" fill-rule="evenodd" d="M435.29023994 433.52846633s1.34040024 1.67273448 0 4.68365653c-1.34040024 3.01092206-19.43580348 23.75282954-19.43580348 23.75282954l1.34040024 10.03640685 3.68610066-2.67637516 3.3510006 3.34546895-5.60095815 5.68729722 1.57975743 8.36367237 2.4414433-2.67637516 3.59035778 3.34546895-5.36160096 5.68729721s1.86698605 7.69457859 1.77124317 10.37095375c-.09574287 2.67637516-3.92545784 5.35275032-4.02120072 5.35275032-.09574287 0-1.4361431.3345469-2.77654335-2.00728137-1.34040024-2.34182827-15.0795027-29.10557986-15.0795027-29.10557986l-21.78150389 18.06553232.67020012 12.37823512-2.34570042 1.33818758-7.37220132-10.70550064-.33510006-.3345469"/>
+    </g>
+  </g>
+</svg>
