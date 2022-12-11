@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,49 +8,147 @@
     <meta name="description" content="Personalized travel solutions for all your holiday requirements">
     <meta name="keywords" content="travel, wide bay, flight, cruise, hotel, motel, holiday, local, deal, affordable">
     <meta name="author" content="aussiedev81.com">
-    
+
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="https://travelpartnerswidebay.com.au">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Travel Partners Wide Bay">
     <meta property="og:description" content="Personalized travel solutions for all your holiday requirements">
-    <meta property="og:image" content="./assets/img/logo_1.jfif">
-    
+    <meta property="og:image" content="./assets/img/logo-calendar.svg">
+
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:domain" content="travelpartnerswidebay.com.au">
     <meta property="twitter:url" content="https://travelpartnerswidebay.com.au">
     <meta name="twitter:title" content="AussieDev81">
     <meta name="twitter:description" content="Personalized travel solutions for all your holiday requirements">
-    <meta name="twitter:image" content="./assets/img/logo_1.jfif">
+    <meta name="twitter:image" content="./assets/img/logo-calendar.svg">
 
     <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <script src="./assets/js/components.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700&display=swap" rel="stylesheet">
+    
+
     <title>Home - Travel Partners Wide Bay</title>
 </head>
+
 <body>
-    <!-- Main Navigation -->
-    <nav id="navbar"></nav>
+
+    <!-- Top social bar & main navigation menu -->
+    <header></header>
+
 
     <!-- Content Section -->
     <section class="content">
 
         <!-- Not entirely sure on content yet, so these could change -->
-        <div id="hero"></div>
+        <div class="hero">
+            <h1>Some catchy heading!</h1>
+        </div>
 
-        <div id="get-quote"></div>
+        <div class="articles">
 
-        <div id="gallery"></div>
+            <div class="article-item-1">
+                <img src="./assets/img/travel-1.jpg"/>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias vel eaque quisquam natus, repellendus magnam sunt animi esse aperiam veritatis, vero amet incidunt illo nam, vitae tempora quasi. Earum sapiente saepe, beatae repellat autem aliquid ipsa labore inventore dignissimos voluptatem, consequuntur id? Illum natus ex dolores velit, perferendis suscipit. Sunt, mollitia quia. Sint aliquid doloribus quibusdam reprehenderit repudiandae recusandae laboriosam eligendi illum cumque amet quod quos voluptate enim necessitatibus, sit dicta similique. Ad, dolore voluptate!</p>
+            </div>
 
-        <div id="testamonials"></div>
+            <div class="article-item-2">
+                <img src="./assets/img/travel-2.jpg"/>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, ea? Saepe voluptates laboriosam odio necessitatibus tempore. Est esse ipsa nam aliquid molestiae! Consequuntur aperiam, sapiente dolorum dicta cum voluptates rerum doloribus modi nobis minima dignissimos!</p>
+            </div>
 
-        <div id="affiliates"></div>
+
+        </div>
+
+        <!-- Quote request form widget -->
+        <div class="widget-btn" id="quote-toggle">$</div>
+
+        <!-- Quote request form -->
+        <div class="quote-request">
+            <h2 class="quote-title">Request a Quote</h2>
+            <form id="quote-form">
+                
+                <div class="passengers">   
+                    <span>Passengers</span>
+                    <div class="form-group">
+                        <label for="adults">Adults</label>
+                        <input type="number" min="0" max="10" value="0" id="adults">
+                    </div>
+                    <div class="form-group">
+                        <label for="children">Children</label>
+                        <input type="number" min="0" max="10" value="0" id="children">
+                    </div>
+                </div>
+
+                
+                <div class="locations">
+                    <span>Departure &rarr; Destination</span>
+                    <div class="form-group">
+                        <label for="departure">Departure</label>
+                        <select name="departure" id="depart">
+                            <option value="">Select a location...</option>
+                            <option value="Brisbane">Brisbane</option>
+                            <option value="Sydney">Sydney</option>
+                            <option value="Melbourne">Melbourne</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="arrival">Arrival</label>
+                        <select name="arrival" id="arrive">
+                            <option value="">Select a location...</option>
+                            <option value="Brisbane">Brisbane</option>
+                            <option value="Sydney">Sydney</option>
+                            <option value="Melbourne">Melbourne</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="date-range">
+                    <span>Date Range</span>
+                    <div class="form-group">
+                        <label for="from">From</label>
+                        <input type="date" id="from">
+                    </div>
+                    <div class="form-group">
+                        <label for="to">To</label>
+                        <input type="date" id="to">
+                    </div>
+                </div>
+
+                <div class="contact-details">
+                    <Span>Contact Details</Span>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" size="15">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email">
+                </div>
+
+                <input class="submit-enquiry" type="submit" title="Enquire" value="Enquire" id="quote-btn">
+            </form>
+        </div>
+
+        <!-- Testimonials -->
+        <div class="testimonials sticky-note">
+            <h1>Maybe some customer testimonials?</h1>
+        </div>
+
+        <!-- Affiliate and partner links -->
+        <div class="affiliates sticky-note">
+            <h1>Branding and links for affiliates or partners?</h1>
+        </div>
 
     </section>
 
     <!-- Site Footer -->
-    <footer id="footer"></footer>
+    <footer></footer>
 
+    <script src="./assets/js/components.js"></script>
+    <script src="./assets/js/quoteForm.js"></script>
+    
 </body>
+
 </html>
