@@ -1,91 +1,159 @@
+// List of social media channels
+const socialMediaChannels = [
+	{ url: "https://facebook.com/travelpartnerswidebay", icon: "fa-brands fa-facebook-f fa-xl" },
+	{ url: "https://instagram.com/travelpartnerswidebay", icon: "fa-brands fa-instagram fa-xl" },
+	{ url: "https://twitter.com/travelpartnerswidebay", icon: "fa-brands fa-twitter fa-xl" },
+	{ url: "https://linkedin.com/travelpartnerswidebay", icon: "fa-brands fa-linkedin fa-xl" },
+];
+
+const BUSINESS_NAME = "Travel Partners Wide Bay";
+const CONTACT_PHONE = "0420 818 155";
+const CONTACT_EMAIL = "paula.henry@travelpartners.com.au";
+const AUTHOR = "AussieDev81";
+const AUTHOR_URL = "https://aussiedev81.com";
+const currentPage = window.location.pathname.split("/").pop().split(".")[0];
 
 window.onload = () => {
-    navbarContent();
-    footerContent();
-}
+    headerContent();// Add top social bar and main navbar
+    navbarToggler();// Init navbar toggle button
+	footerContent();// Add footer content
+    // locations();
+};
 
-const currentPage = window.location.pathname.split("/").pop();
 
+//============================== HEADER =========================================
 
-const navbarContent = () => {
+const headerContent = () => {
+	const headerElement = document.getElementsByTagName("header")[0];
 
-    const navElement = document.getElementById("navbar");
+    // Add social header and main navbar to the header element
+    headerElement.innerHTML = socialHeaderBar();
+    headerElement.innerHTML += mainNavbar();
 
-    navElement.innerHTML = `
-        <div id="logo">
-            <img src="./assets/img/logo_1.jfif" width="80" height="auto" />
-        </div>
-        <span id="navbar-brand"><a href="index.html">Travel Partners Wide Bay</a></span>
-        ${navigationMenu}
+	return headerElement;
+};
+
+const socialHeaderBar = () => {
+	let content = `<div class="social-bar"><ul>`;
+
+	// Add list items for all social media channels in the "socialMediaChannels" list
+	socialMediaChannels.forEach((channel) => {
+		content += `<li><a href="${channel.url}"><i class="${channel.icon}"></i></a></li>`;
+	});
+	content += `</ul></div>`;
+
+	return content;
+};
+
+const mainNavbar = () => {
+    console.log(currentPage)
+    let content = `
+        <nav class="navbar">
+            <img class="brand-logo" src="./assets/img/logo-calendar.svg" />
+            <div class="brand-title">${BUSINESS_NAME}</div>
+
+            <!-- Toggle button for mobile devices -->
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+
+            <!-- Navigation menu links -->
+            <div class="navbar-links">
+                <ul>
+                    <li><a class="${currentPage == "index" ? "active" : ""}" href="index.html">Home</a></li>
+                    <li><a class="${currentPage == "about" ? "active" : ""}" href="about.html">About</a></li>
+                    <li><a class="${currentPage == "services" ? "active" : ""}" href="services.html">Services</a></li>
+                    <li><a class="${currentPage == "contact" ? "active" : ""}" href="contact.html">Contact</a></li>
+                    <li><a class="${currentPage == "privacy" ? "active" : ""}" href="privacy.html">Privacy</a></li>
+                </ul>
+            </div>
+
+        </nav>
     `;
-    return navElement;
 
+    return content;
 }
 
+const navbarToggler = () => {
+    const toggleButton = document.getElementsByClassName("toggle-button")[0];
+    const navbarLinks = document.getElementsByClassName("navbar-links")[0];
 
+    toggleButton.addEventListener("click", () => {
+        navbarLinks.classList.toggle("active");
+    });
+}
+
+//===============================================================================
+
+//============================== FOOTER =========================================
 const footerContent = () => {
+	const footerElement = document.getElementsByTagName("footer")[0];
 
-	const footerElement = document.getElementById("footer")
-
-	footerElement.innerHTML = logo;
-	footerElement.innerHTML += navigationMenu;
-    
-    footerElement.innerHTML += contactInfo;
-    footerElement.innerHTML += socialLinks;
+	footerElement.innerHTML = footerLogo;
+	footerElement.innerHTML += footerNavMenu;
+	footerElement.innerHTML += footerContactInfo;
 	footerElement.innerHTML += copyright;
 	footerElement.innerHTML += attribution;
-	
+
 	return footerElement;
-}
+};
 
-
-const logo = `
+const footerLogo = `
     <div id="logo">
-        <img src="./assets/img/logo_1.jfif" width="80" height="auto" />
+    <a href="index.html">
+        <img src="./assets/img/logo-calendar.svg" width="100%" height="auto" />
+    </a>
     </div>
 `;
 
-
-const navigationMenu = `
-        <ul id="menu">
+const footerNavMenu = `
+        <!-- Footer menu links -->
+        <ul id="nav-menu">
             <li><a class="${currentPage === "index.html" ? "active" : ""}" href="index.html">Home</a></li>
             <li><a class="${currentPage === "about.html" ? "active" : ""}" href="about.html">About</a></li>
             <li><a class="${currentPage === "services.html" ? "active" : ""}" href="services.html">Services</a></li>
             <li><a class="${currentPage === "contact.html" ? "active" : ""}" href="contact.html">Contact</a></li>
-            <li><a class="${currentPage === "privacy-policy.html" ? "active" : ""}" href="privacy-policy.html">Privacy</a></li>
+            <li><a class="${currentPage === "privacy.html" ? "active" : ""}" href="privacy.html">Privacy</a></li>
         </ul>
     `;
 
-
-const socialLinks = `
+const socialFooterLinks = () => {
+        let links = `
+    <!-- Social media links -->
     <ul id="social">
-        <li><a href="https://facebook.com/travelpartnerswidebay"><i class="fa-brands fa-facebook-f fa-xl"></i></a></li>
-        <li><a href="https://instagram.com/travelpartnerswidebay"><i class="fa-brands fa-instagram fa-xl"></i></a></li>
-        <li><a href="https://twitter.com/travelpartnerswidebay"><i class="fa-brands fa-twitter fa-xl"></i></a></li>
-        <li><a href="https://linkedin.com/travelpartnerswidebay"><i class="fa-brands fa-linkedin fa-xl"></i></a></li>
-    </ul>
 `;
 
+        socialMediaChannels.forEach((channel) => {
+            links += `<li><a href="${channel.url}"><i class="${channel.icon}"></i></a></li>`;
+        });
 
-const contactInfo = `
+        links += `</ul>`;
+        return links;
+    };
+
+const footerContactInfo = `
+    <!-- Contact information -->
     <ul id="contact-info">
     <h3>Contact</h3>
-        <li><a href="tel:123456789"><i class="fa-solid fa-phone fa-xl"></i>123456789</a></li>
-        <li><a href="mailto:paula.henry@travelpartners.com.au"><i class="fa-regular fa-envelope fa-xl"></i>paula.henry@travelpartners.com.au</a></li>
+        <li><a href="tel:${CONTACT_PHONE}"><i class="fa-solid fa-phone fa-xl"></i>${CONTACT_PHONE}</a></li>
+        <li><a href="mailto:${CONTACT_EMAIL}"><i class="fa-regular fa-envelope fa-xl"></i>${CONTACT_EMAIL}</a></li>
+        ${socialFooterLinks()}
     </ul>
 `;
 
-
 const copyright = `
+    <!-- Copyright notice -->
     <div id="copyright">
-        &copy; Travel Partners Wide Bay ${new Date().getFullYear()} - All Rights Reserved
+        &copy; ${BUSINESS_NAME} ${new Date().getFullYear()} - All Rights Reserved
     </div>
 `;
 
-
 const attribution = `
+    <!-- Website author attribution - Do not remove -->
     <div id="attribution">
-        Website by <a href="https://aussiedev81.com" target="_blank">AussieDev81</a>
+        Website by <a href="${AUTHOR_URL}" target="_blank">${AUTHOR}</a>
     </div>
 `;
 
@@ -115,4 +183,3 @@ const locations = async () => {
     
     console.log("Filtered", locationsByCityName(target));
 }
-    
