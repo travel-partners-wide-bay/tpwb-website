@@ -89,4 +89,30 @@ const attribution = `
     </div>
 `;
 
+//===============================================================================
+
+function findByCityName(obj, cityName){
+    return obj.City.includes(cityName);
+}
+
+
+const locations = async () => {
+    
+    const locations = await fetch("./assets/locations.json")
+    .then((response) => response.json())
+    .then((data) => {return data})
+    .catch((err) => console.error(err));
+
+    console.log(locations);
+    let target = "Syd";
+    // let locationsByCityName = (targetCity) => locations.filter((loc) => {
+    //     return loc.City.includes(targetCity);
+    // })
+
+    let locationsByCityName = (targetCity) => {
+        return locations.filter((loc) => loc.City.includes(targetCity))
+    }
+    
+    console.log("Filtered", locationsByCityName(target));
+}
     
