@@ -1,0 +1,153 @@
+/* =========== Feature Image =========== */
+.feature-top {
+    height: var(--feature-image-height);
+    width: 100%;
+    display: grid;
+    align-content: center;
+    background-image: url("../img/contact-us.jpg");
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.feature-top>h1 {
+    font-size: 3rem;
+    color: var(--text-light);
+    text-shadow: 0 0 10px black;
+    text-align: center;
+}
+
+.feature-bottom {
+    padding-block: 10rem;
+    display: block;
+    background-image: url("../img/fantasy.jpg");
+    background-attachment: fixed;
+    background-position: center;    
+}
+
+
+
+/* =========== Contact Page Info =========== */
+.contact-page-info {
+    margin: 3rem;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+}
+#contact-info {
+    display: flex;
+    flex-direction: column;
+    max-width: max-content;
+    row-gap: 1rem;
+    align-items: center;
+    padding: 0;
+}
+#contact-info > h3 {
+    text-align: center;
+    color: var(--text-dark);
+    font-size: 2rem;
+    margin: 0;
+    display: none;
+}
+#contact-info > ul, #contact-info > li{
+    list-style: none;
+    padding: 0;
+}
+#contact-info #social {
+    display: flex;
+    width: 100%;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+#contact-info > li > a, #social > li > a {
+    text-decoration: none;
+    color: var(--text-dark);
+        transition: var(--link-grow);
+            display: block;
+}
+#contact-info>li>a:hover, #social>li>a:hover {
+    color: var(--footer-link-hover);
+    transform: scale(1.1);
+}
+#contact-info #social > li {
+    margin-inline: 1rem;
+}
+#contact-info #social > li >a {
+    font-size: 1.5rem;
+}
+#contact-info>li>a>i {
+    margin-right: .5rem;
+}
+
+/* =========== Contact Form =========== */
+#contact-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-inline: 10rem;
+    row-gap: 1rem;
+    column-gap: 3rem;
+    padding: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0.5rem;
+}
+.col-1 {
+    grid-column: 1;
+}
+.col-2 {
+    grid-column: 2;
+}
+.span-4 {
+    grid-row: 2/5;
+}
+#contact-form > .heading {
+    grid-column: 1/3;
+    grid-row: 1;
+    justify-self: center;
+    color: var(--text-light);
+    text-transform: capitalize;
+    font-weight: normal;
+}
+#contact-form > .group {
+    display: flex;
+    flex-direction: column;
+}
+#contact-form>.group * {
+    font-size: 1.2rem;
+}
+#contact-form>.group> label {
+    padding-bottom: 5px;
+    color: var(--white);
+}
+#contact-form > .group > input {
+    width: 100%;
+    height: 100%;
+}
+#contact-form > .group > textarea {
+    width: 100%;
+    resize: none;
+}
+input:not(.submit-btn), textarea {
+    background-color: rgb(232,240,254);
+}
+#contact-form .submit-btn {
+    grid-column: 1/3;
+    justify-self: center;
+}
+.submit-btn {
+    padding: 10px 20px;
+    border-radius: 100px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 1.5rem;
+    font-size: 110%;
+    color: var(--text-light);
+    background-color: var(--red);
+    border: none;
+    box-shadow: 0px 0px 5px var(--light-gray);
+    transition: var(--link-grow);
+}
+.submit-btn:hover {
+    transform: scale(1.05);
+    color: var(--light-gray);
+    background-color: var(--white);
+}

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700&display=swap');
+
+:root {
+    /*Fonts*/
+    font-family: 'Raleway';
+    font-size: 16px;
+    --fw-thin: 100;
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-bold: 700;
+    /*Colors*/
+    --red: #D50032;
+    --dark-gray: #323232;
+    --light-gray: #555;
+    --white: #fff;
+    --blue: #0C2340;
+
+    /*Social Icon Bar*/
+    --social-bar-bg: var(--dark-gray);
+    --social-bar-link: var(--white);
+    --social-bar-icon-hover: var(--red);
+
+    /*Navigation Bar*/
+    --navbar-bg: var(--white);
+    --navbar-link: var(--dark-gray);
+    --navbar-link-hover: var(--white);
+    --navbar-link-active: var(--white);
+    --navbar-link-bg-hover: var(--light-gray);
+    --navbar-link-bg-active: var(--light-gray);
+
+    --footer-bg: var(--dark-gray);
+    --footer-link: var(--white);
+    --footer-link-hover: var(--red);
+
+    --link-grow: ease-in-out .2s;
+
+    --text-light: var(--white);
+    --text-dark: #414143;
+
+    --feature-tile-width: 20rem;
+    --feature-tile-gap: 1.5rem;
+
+    --avatar-size: 50px;
+
+    --box-shadow-light: 1px 1px 5px var(--light-gray);
+    --feature-image-height: 20rem;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Image Tilt */
+.tilt-back {
+    transform: rotate(-1.5deg);
+}
+
+.tilt-forward {
+    transform: rotate(1.5deg);
+}
+
+/* Scroll up button */
+#scroll-top-btn {
+    display: none;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 99;
+    border: none;
+    background-color: var(--red);
+    color: var(--text-light);
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: .5rem;
+    transition: var(--link-grow);
+}
+#scroll-top-btn:hover {
+    transform: scale(1.1);
+}
+
+
+
+/* ========== placeholder styling =======*/
+.sticky-note {
+    display: grid;
+    margin: 3rem;
+    align-content: center;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    height: 20rem;
+    box-shadow: var(--box-shadow-light);
+}
+
+
