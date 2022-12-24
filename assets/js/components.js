@@ -13,11 +13,11 @@ const SOCIAL_MEDIA_CHANNELS = [
 	{ url: "https://twitter.com/travelpartnerswidebay", icon: "fa-brands fa-twitter fa-xl" },
 	{ url: "https://linkedin.com/travelpartnerswidebay", icon: "fa-brands fa-linkedin fa-xl" },
 ];
-const HOME = `~/${DEV_MODE_ACTIVE ? "index.html" : ""}`;
-const ABOUT = `~/about${DEV_MODE_ACTIVE ? ".html" : ""}`;
-const SERVICES = `~/services${DEV_MODE_ACTIVE ? ".html" : ""}`;
-const CONTACT = `~/contact${DEV_MODE_ACTIVE ? ".html" : ""}`;
-const PRIVACY = `~/privacy${DEV_MODE_ACTIVE ? ".html" : ""}`;
+const HOME = `${DEV_MODE_ACTIVE ? "index.html" : ""}`;
+const ABOUT = `about${DEV_MODE_ACTIVE ? ".html" : ""}`;
+const SERVICES = `services${DEV_MODE_ACTIVE ? ".html" : ""}`;
+const CONTACT = `contact${DEV_MODE_ACTIVE ? ".html" : ""}`;
+const PRIVACY = `privacy${DEV_MODE_ACTIVE ? ".html" : ""}`;
 const HUMM90_AFFILIATE_LINK = "https://apply.flexicards.com.au/PromotionSelector?seller=E1351&ifol=False&Welcome=0&sid=553087ce-7582-49f3-b084-81e44c69f5b8";
 
 window.onload = () => {
