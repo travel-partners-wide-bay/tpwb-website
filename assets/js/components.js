@@ -1,4 +1,4 @@
-const DEV_MODE_ACTIVE = false;
+const DEV_MODE_ACTIVE = true;
 
 const BUSINESS_NAME = "Travel Partners Wide Bay";
 const CONTACT_PHONE = "0420 818 155";
