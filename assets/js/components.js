@@ -1,55 +1,55 @@
-// List of social media channels
-const socialMediaChannels = [
-	{ url: "https://facebook.com/travelpartnerswidebay", icon: "fa-brands fa-facebook-f fa-xl" },
-	{ url: "https://instagram.com/travelpartnerswidebay", icon: "fa-brands fa-instagram fa-xl" },
-	{ url: "https://twitter.com/travelpartnerswidebay", icon: "fa-brands fa-twitter fa-xl" },
-	{ url: "https://linkedin.com/travelpartnerswidebay", icon: "fa-brands fa-linkedin fa-xl" },
-];
+const DEV_MODE_ACTIVE = true;
 
 const BUSINESS_NAME = "Travel Partners Wide Bay";
 const CONTACT_PHONE = "0420 818 155";
 const CONTACT_EMAIL = "paula.henry@travelpartners.com.au";
 const AUTHOR = "AussieDev81";
 const AUTHOR_URL = "https://aussiedev81.com";
-const currentPage = window.location.pathname.split("/").pop().split(".")[0];
+const NAVBAR_LOGO = "./assets/img/logo-calendar.svg";
+const CURRENT_PAGE = window.location.pathname.split("/").pop().split(".")[0];
+const SOCIAL_MEDIA_CHANNELS = [
+	{ url: "https://facebook.com/travelpartnerswidebay", icon: "fa-brands fa-facebook-f fa-xl" },
+	{ url: "https://instagram.com/travelpartnerswidebay", icon: "fa-brands fa-instagram fa-xl" },
+	{ url: "https://twitter.com/travelpartnerswidebay", icon: "fa-brands fa-twitter fa-xl" },
+	{ url: "https://linkedin.com/travelpartnerswidebay", icon: "fa-brands fa-linkedin fa-xl" },
+];
+const HOME = `/${DEV_MODE_ACTIVE ? "index.html" : ""}`;
+const ABOUT = `/about${DEV_MODE_ACTIVE ? ".html" : ""}`;
+const SERVICES = `/services${DEV_MODE_ACTIVE ? ".html" : ""}`;
+const CONTACT = `/contact${DEV_MODE_ACTIVE ? ".html" : ""}`;
+const PRIVACY = `/privacy${DEV_MODE_ACTIVE ? ".html" : ""}`;
+const HUMM90_AFFILIATE_LINK = "https://apply.flexicards.com.au/PromotionSelector?seller=E1351&ifol=False&Welcome=0&sid=553087ce-7582-49f3-b084-81e44c69f5b8";
 
 window.onload = () => {
-    headerContent();// Add top social bar and main navbar
-    navbarToggler();// Init navbar toggle button
-	footerContent();// Add footer content
-    // locations();
+	socialBanner();
+	topNavbar();
+	navbarToggler(); // Init navbar toggle button
+	footerContent(); // Add footer content
+    scrollUpButton();
 };
 
 
-//============================== HEADER =========================================
-
-const headerContent = () => {
-	const headerElement = document.getElementsByTagName("header")[0];
-
-    // Add social header and main navbar to the header element
-    headerElement.innerHTML = socialHeaderBar();
-    headerElement.innerHTML += mainNavbar();
-
-	return headerElement;
-};
-
-const socialHeaderBar = () => {
-	let content = `<div class="social-bar"><ul>`;
+//============================== SOCIAL BANNER   =========================================
+const socialBanner = () => {
+	const socialBannerElement = document.getElementsByClassName("social-banner")[0];
+	let socialBannerContent = `<ul>`;
 
 	// Add list items for all social media channels in the "socialMediaChannels" list
-	socialMediaChannels.forEach((channel) => {
-		content += `<li><a href="${channel.url}"><i class="${channel.icon}"></i></a></li>`;
+	SOCIAL_MEDIA_CHANNELS.forEach((channel) => {
+		socialBannerContent += `<li><a href="${channel.url}"><i class="${channel.icon}"></i></a></li>`;
 	});
-	content += `</ul></div>`;
+	socialBannerContent += `</ul>`;
 
-	return content;
+	socialBannerElement.innerHTML = socialBannerContent;
 };
 
-const mainNavbar = () => {
-    console.log(currentPage)
-    let content = `
-        <nav class="navbar">
-            <img class="brand-logo" src="./assets/img/logo-calendar.svg" />
+//============================== NAVBAR =========================================
+const topNavbar = () => {
+	console.log(CURRENT_PAGE);
+	const topNavbarElement = document.getElementsByClassName("navbar")[0];
+
+	let topNavbarContent = `
+            <a href="${HOME}"><img class="brand-logo" src="${NAVBAR_LOGO}" /></a>
             <div class="brand-title">${BUSINESS_NAME}</div>
 
             <!-- Toggle button for mobile devices -->
@@ -62,32 +62,39 @@ const mainNavbar = () => {
             <!-- Navigation menu links -->
             <div class="navbar-links">
                 <ul>
-                    <li><a class="${currentPage == "index" ? "active" : ""}" href="index.html">Home</a></li>
-                    <li><a class="${currentPage == "about" ? "active" : ""}" href="about.html">About</a></li>
-                    <li><a class="${currentPage == "services" ? "active" : ""}" href="services.html">Services</a></li>
-                    <li><a class="${currentPage == "contact" ? "active" : ""}" href="contact.html">Contact</a></li>
-                    <li><a class="${currentPage == "privacy" ? "active" : ""}" href="privacy.html">Privacy</a></li>
+                    <li><a class="${CURRENT_PAGE == "index" ? "active" : ""}" href="${HOME}">Home</a></li>
+                    <li><a class="${CURRENT_PAGE == "about" ? "active" : ""}" href="${ABOUT}">About</a></li>
+                    <li><a class="${CURRENT_PAGE == "services" ? "active" : ""}" href="${SERVICES}">Services</a></li>
+                    <li><a class="${CURRENT_PAGE == "contact" ? "active" : ""}" href="${CONTACT}">Contact</a></li>
+                    <li><a class="${CURRENT_PAGE == "privacy" ? "active" : ""}" href="${PRIVACY}">Privacy</a></li>
                 </ul>
             </div>
 
-        </nav>
     `;
 
-    return content;
-}
+	topNavbarElement.innerHTML = topNavbarContent;
+};
 
+//======================== NAVBAR TOGGLER =======================================
 const navbarToggler = () => {
-    const toggleButton = document.getElementsByClassName("toggle-button")[0];
-    const navbarLinks = document.getElementsByClassName("navbar-links")[0];
+	const toggleButton = document.getElementsByClassName("toggle-button")[0];
+	const navbarLinks = document.getElementsByClassName("navbar-links")[0];
 
-    toggleButton.addEventListener("click", () => {
-        navbarLinks.classList.toggle("active");
-    });
-}
+	toggleButton.addEventListener("click", () => {
+		navbarLinks.classList.toggle("active");
+	});
+};
 
-//===============================================================================
+
+//============================== CONTACT PAGE INFO =========================================
+
+const contactPageInfo = () => {
+	const contactInfoDiv = document.getElementsByClassName("contact-page-info")[0];
+    contactInfoDiv.innerHTML = footerContactInfo;
+};
 
 //============================== FOOTER =========================================
+
 const footerContent = () => {
 	const footerElement = document.getElementsByTagName("footer")[0];
 
@@ -109,29 +116,29 @@ const footerLogo = `
 `;
 
 const footerNavMenu = `
-        <!-- Footer menu links -->
-        <ul id="nav-menu">
-            <li><a class="${currentPage === "index.html" ? "active" : ""}" href="index.html">Home</a></li>
-            <li><a class="${currentPage === "about.html" ? "active" : ""}" href="about.html">About</a></li>
-            <li><a class="${currentPage === "services.html" ? "active" : ""}" href="services.html">Services</a></li>
-            <li><a class="${currentPage === "contact.html" ? "active" : ""}" href="contact.html">Contact</a></li>
-            <li><a class="${currentPage === "privacy.html" ? "active" : ""}" href="privacy.html">Privacy</a></li>
-        </ul>
-    `;
-
-const socialFooterLinks = () => {
-        let links = `
-    <!-- Social media links -->
-    <ul id="social">
+    <!-- Footer menu links -->
+    <ul id="nav-menu">
+        <li><a class="${CURRENT_PAGE === "index.html" ? "active" : ""}" href="index.html">Home</a></li>
+        <li><a class="${CURRENT_PAGE === "about.html" ? "active" : ""}" href="about.html">About</a></li>
+        <li><a class="${CURRENT_PAGE === "services.html" ? "active" : ""}" href="services.html">Services</a></li>
+        <li><a class="${CURRENT_PAGE === "contact.html" ? "active" : ""}" href="contact.html">Contact</a></li>
+        <li><a class="${CURRENT_PAGE === "privacy.html" ? "active" : ""}" href="privacy.html">Privacy</a></li>
+    </ul>
 `;
 
-        socialMediaChannels.forEach((channel) => {
-            links += `<li><a href="${channel.url}"><i class="${channel.icon}"></i></a></li>`;
-        });
+const socialFooterLinks = () => {
+	let links = `
+        <!-- Social media links -->
+        <ul id="social">
+    `;
 
-        links += `</ul>`;
-        return links;
-    };
+	SOCIAL_MEDIA_CHANNELS.forEach((channel) => {
+		links += `<li><a href="${channel.url}"><i class="${channel.icon}"></i></a></li>`;
+	});
+
+	links += `</ul>`;
+	return links;
+};
 
 const footerContactInfo = `
     <!-- Contact information -->
@@ -157,29 +164,24 @@ const attribution = `
     </div>
 `;
 
-//===============================================================================
 
-function findByCityName(obj, cityName){
-    return obj.City.includes(cityName);
+//============================== SCROLL TO TOP OF PAGE BUTTON =========================================
+const scrollUpButton = () => {
+    document.body.innerHTML += `
+        <button id="scroll-top-btn" title="Go to top" onclick="scrollUp()">
+			<i class="fa-solid fa-jet-fighter-up fa-xl"></i>
+		</button>
+    `;
 }
 
+//Independent browser scroll limits
+window.onscroll = () => {
+	const scrollLimit = 150;
+	let scrollBtn = document.getElementById("scroll-top-btn");
+	let chromiumTop = document.documentElement.scrollTop;
+	let safariTop = document.body.scrollTop;
+	scrollBtn.style.display = chromiumTop > scrollLimit || safariTop > scrollLimit ? "block" : "none";
+};
 
-const locations = async () => {
-    
-    const locations = await fetch("./assets/locations.json")
-    .then((response) => response.json())
-    .then((data) => {return data})
-    .catch((err) => console.error(err));
-
-    console.log(locations);
-    let target = "Syd";
-    // let locationsByCityName = (targetCity) => locations.filter((loc) => {
-    //     return loc.City.includes(targetCity);
-    // })
-
-    let locationsByCityName = (targetCity) => {
-        return locations.filter((loc) => loc.City.includes(targetCity))
-    }
-    
-    console.log("Filtered", locationsByCityName(target));
-}
+//Enable smooth scrolling
+const scrollUp = () => window.scrollTo({ top: 0, behavior: "smooth" });

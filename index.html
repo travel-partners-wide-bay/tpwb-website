@@ -25,7 +25,12 @@
     <meta name="twitter:image" content="./assets/img/logo-calendar.svg">
 
     <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <link rel="stylesheet" href="./assets/css/common.css" />
+    <link rel="stylesheet" href="./assets/css/navigation.css" />
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    
+    <link rel="stylesheet" href="./assets/css/quote-request.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700&display=swap" rel="stylesheet">
     
@@ -34,15 +39,16 @@
 </head>
 
 <body>
+    
 
-    <!-- Top social bar & main navigation menu -->
-    <header></header>
+    <div class="social-banner"></div>
 
 
-    <!-- Content Section -->
+    <nav class="navbar"></nav>
+
+
     <section class="content">
 
-        <!-- Not entirely sure on content yet, so these could change -->
         <div class="hero">
             <h1>Some catchy heading!</h1>
         </div>
@@ -50,23 +56,23 @@
         <div class="articles">
 
             <div class="article-item-1">
-                <img src="./assets/img/travel-1.jpg"/>
+                <img class="tilt-back" src="./assets/img/travel-1.jpg"/>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias vel eaque quisquam natus, repellendus magnam sunt animi esse aperiam veritatis, vero amet incidunt illo nam, vitae tempora quasi. Earum sapiente saepe, beatae repellat autem aliquid ipsa labore inventore dignissimos voluptatem, consequuntur id? Illum natus ex dolores velit, perferendis suscipit. Sunt, mollitia quia. Sint aliquid doloribus quibusdam reprehenderit repudiandae recusandae laboriosam eligendi illum cumque amet quod quos voluptate enim necessitatibus, sit dicta similique. Ad, dolore voluptate!</p>
             </div>
 
             <div class="article-item-2">
-                <img src="./assets/img/travel-2.jpg"/>
+                <img class="tilt-forward" src="./assets/img/travel-2.jpg"/>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, ea? Saepe voluptates laboriosam odio necessitatibus tempore. Est esse ipsa nam aliquid molestiae! Consequuntur aperiam, sapiente dolorum dicta cum voluptates rerum doloribus modi nobis minima dignissimos!</p>
             </div>
 
-
         </div>
 
-        <!-- Quote request form widget -->
+
         <div class="widget-btn" id="quote-toggle">$</div>
 
-        <!-- Quote request form -->
+
         <div class="quote-request">
+
             <h2 class="quote-title">Request a Quote</h2>
             <form id="quote-form">
                 
@@ -82,7 +88,6 @@
                     </div>
                 </div>
 
-                
                 <div class="locations">
                     <span>Departure &rarr; Destination</span>
                     <div class="form-group">
@@ -131,20 +136,57 @@
             </form>
         </div>
 
-        <!-- Testimonials -->
-        <div class="testimonials sticky-note">
-            <h1>Maybe some customer testimonials?</h1>
+
+        <div class="testimonial-container">
+            <div class="heading">Testimonials</div>
+            <div class="testimonials">
+                <div class="testimonial">
+                    <div class="avatar"><img class="round-icon" src="./assets/img/user-icon.png" /></div>
+                    <div class="comment">
+                        &ldquo;Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem eaque maxime voluptatum maiores nihil
+                        ipsa sequi? Ipsam sit soluta quidem?&ldquo;
+                        <span class="testimonial-author">- James Franco</span>
+                    </div>
+                </div>
+            
+                <div class="testimonial">
+                    <div class="avatar"><img class="round-icon" src="./assets/img/user-icon.png" /></div>
+                    <div class="comment">
+                        &ldquo;Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem eaque maxime voluptatum maiores nihil
+                        ipsa sequi? Ipsam sit soluta quidem?&ldquo;
+                        <span class="testimonial-author">- Celine Dion</span>
+                    </div>
+                </div>
+            
+                <div class="testimonial">
+                    <div class="avatar"><img class="round-icon" src="./assets/img/user-icon.png" /></div>
+                    <div class="comment">
+                        &ldquo;Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem eaque maxime voluptatum maiores nihil
+                        ipsa sequi? Ipsam sit soluta quidem?&ldquo;
+                        <span class="testimonial-author">- Betty White</span>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <!-- Affiliate and partner links -->
-        <div class="affiliates sticky-note">
-            <h1>Branding and links for affiliates or partners?</h1>
+
+        <div class="affiliates">
+            <div class="humm90">
+                <div class="row">We use and recommend&nbsp;<img src="./assets/img/partners/humm90_logo_blue.svg" alt="Humm90 logo" class="logo"></div>
+                
+                <img class="eligibility" src="./assets/img/partners/humm90_rates_&_eligibility.png" alt="Humm90 rates, fees, and eligibility">
+                <img class="mastercard" src="./assets/img/partners/humm90_platinum_mastercard.png" alt="Humm90 rates, fees, and eligibility">
+                <form action="https://google.com">
+                    <input class="btn-red" type="submit" value="Apply Now" title="Go to Humm90">
+                </form>
+            </div>
         </div>
 
     </section>
 
-    <!-- Site Footer -->
+
     <footer></footer>
+
 
     <script src="./assets/js/components.js"></script>
     <script src="./assets/js/quoteForm.js"></script>
