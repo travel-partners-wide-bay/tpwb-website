@@ -13,7 +13,7 @@ const SOCIAL_MEDIA_CHANNELS = [
 	{ url: "https://twitter.com/travelpartnerswidebay", icon: "fa-brands fa-twitter fa-xl" },
 	{ url: "https://linkedin.com/travelpartnerswidebay", icon: "fa-brands fa-linkedin fa-xl" },
 ];
-const HOME = `${DEV_MODE_ACTIVE ? "index.html" : ""}`;
+const HOME = `/${DEV_MODE_ACTIVE ? "index.html" : ""}`;
 const ABOUT = `about${DEV_MODE_ACTIVE ? ".html" : ""}`;
 const SERVICES = `services${DEV_MODE_ACTIVE ? ".html" : ""}`;
 const CONTACT = `contact${DEV_MODE_ACTIVE ? ".html" : ""}`;
