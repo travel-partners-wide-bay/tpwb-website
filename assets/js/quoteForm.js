@@ -1,60 +1,106 @@
-const quoteForm = document.querySelector(".quote-request");
-const quoteSubmitButton = document.getElementById("quote-btn");
-const quoteFormToggle = document.getElementById("quote-toggle");
 
-document.getElementById("quote-toggle").addEventListener("click", () => {
+const toggleQuoteRequest = () => {
+	const quoteRequestForm = document.getElementById("quote-request");
 	//Access the current display value for the quote form
-	let currentDisplay = getComputedStyle(quoteForm).getPropertyValue("display");
+	let currentDisplay = getComputedStyle(quoteRequestForm).getPropertyValue("display");
 	//Display the form if hidden, else hide if currently displayed
-	quoteForm.style.display = currentDisplay == "none" ? "block" : "none";
-});
+	quoteRequestForm.style.display = currentDisplay == "none" ? "block" : "none";
+};
 
-document.getElementById("quote-form")
-.addEventListener('submit', (event) => {
-	event.preventDefault();
-
-	const form = event.target;
-
+const submitEnquiryForm = (form) => {
+	//Todo: Compile and email quote request to Paula
 	const quoteRequest = {
 		numAdults: form["adults"].value,
 		numChildren: form["children"].value,
-		departLocation: form["departure"].value,
-		arriveLocation: form["arrival"].value,
+		departureLocation: form["departure"].value,
+		arrivalLocation: form["arrival"].value,
 		fromDate: form["from"].value,
 		toDate: form["to"].value,
 		name: form["name"].value,
 		phone: form["phone"].value,
 		email: form["email"].value,
 	};
+	console.log(quoteRequest);
 
-	function findByCityName(obj, cityName) {
-		return obj.City.includes(cityName);
-	}
+	//Todo: Alert the user that a request has been sent, and to expect a followup call or email
+	alert("This feature is not active yet");
+};
 
-	const locations = async () => {
-		const locations = await fetch("./assets/locations.json")
-			.then((response) => response.json())
-			.then((data) => {
-				return data;
-			})
-			.catch((err) => console.error(err));
 
-		console.log(locations);
-		let target = "Syd";
-		// let locationsByCityName = (targetCity) => locations.filter((loc) => {
-		//     return loc.City.includes(targetCity);
-		// })
+const quoteFormElement = () => {
+	return `
+	<h2 class="quote-title">Request a Quote</h2>
 
-		let locationsByCityName = (targetCity) => {
-			return locations.filter((loc) => loc.City.includes(targetCity));
-		};
+            <form id="quote-form">
+                
+                <div class="passengers">   
+                    <span>Passengers</span>
+                    <div class="form-group">
+                        <label for="adults">Adults</label>
+                        <input type="number" min="0" max="10" value="0" id="adults">
+                    </div>
+                    <div class="form-group">
+                        <label for="children">Children</label>
+                        <input type="number" min="0" max="10" value="0" id="children">
+                    </div>
+                </div>
 
-		console.log("Filtered", locationsByCityName(target));
-	};
-	
-	/*
-    Todo:
-        Compile and email quote request to Paula
-        Alert the user that a request has been sent, and to expect a followup call or email
-    */
-})
+                <div class="locations">
+                    <span>Departure &rarr; Destination</span>
+                    <div class="form-group">
+                        <label for="departure">Departure</label>
+                        <input type="text" id="departure">
+                    </div>
+                    <div class="form-group">
+                        <label for="arrival">Arrival</label>
+                        <input type="text" id="arrival">
+                    </div>
+                </div>
+
+                <div class="date-range">
+                    <span>Date Range</span>
+                    <div class="form-group">
+                        <label for="from">From</label>
+                        <input type="date" id="from">
+                    </div>
+                    <div class="form-group">
+                        <label for="to">To</label>
+                        <input type="date" id="to">
+                    </div>
+                </div>
+
+                <div class="contact-details">
+                    <Span>Contact Details</Span>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" size="15">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email">
+                </div>
+
+                <button type="button" class="submit-enquiry" onclick="submitEnquiryForm(this.form)">Send</button>
+            </form>`;
+}
+
+
+
+// const populateLocations = async () => {
+// 	return await fetch("./assets/locations.json")
+// 		.then((response) => response.json())
+// 		.then((data) => {
+// 			return data;
+// 		})
+// 		.catch((err) => console.error(err));
+// };
+
+// const LOCATIONS = (window.onload = populateLocations());
+
+// function findByCityName(obj, cityName) {
+// 	return obj.City.includes(cityName);
+// }
+
+// const searchLocation = async (city) => {
+// 	const result = await LOCATIONS;
+// 	return result.filter((loc) => loc.City.toUpperCase().includes(city.toUpperCase()));
+// };
