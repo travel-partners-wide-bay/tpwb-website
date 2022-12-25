@@ -29,8 +29,8 @@
     <link rel="stylesheet" href="./assets/css/common.css" />
     <link rel="stylesheet" href="./assets/css/navigation.css" />
     <link rel="stylesheet" href="./assets/css/index.css" />
-    
     <link rel="stylesheet" href="./assets/css/quote-request.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700&display=swap" rel="stylesheet">
     
@@ -68,73 +68,11 @@
         </div>
 
 
-        <div class="widget-btn" id="quote-toggle">$</div>
+        <!-- <div class="widget-btn" id="quote-toggle">$</div> -->
+        <button id="quote-toggle-btn" onclick="toggleQuoteRequest()">$</button>
 
 
-        <div class="quote-request">
-
-            <h2 class="quote-title">Request a Quote</h2>
-            <form id="quote-form">
-                
-                <div class="passengers">   
-                    <span>Passengers</span>
-                    <div class="form-group">
-                        <label for="adults">Adults</label>
-                        <input type="number" min="0" max="10" value="0" id="adults">
-                    </div>
-                    <div class="form-group">
-                        <label for="children">Children</label>
-                        <input type="number" min="0" max="10" value="0" id="children">
-                    </div>
-                </div>
-
-                <div class="locations">
-                    <span>Departure &rarr; Destination</span>
-                    <div class="form-group">
-                        <label for="departure">Departure</label>
-                        <select name="departure" id="depart">
-                            <option value="">Select a location...</option>
-                            <option value="Brisbane">Brisbane</option>
-                            <option value="Sydney">Sydney</option>
-                            <option value="Melbourne">Melbourne</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="arrival">Arrival</label>
-                        <select name="arrival" id="arrive">
-                            <option value="">Select a location...</option>
-                            <option value="Brisbane">Brisbane</option>
-                            <option value="Sydney">Sydney</option>
-                            <option value="Melbourne">Melbourne</option>
-                        </select>
-                    </div>
-                </div>
-
-                <div class="date-range">
-                    <span>Date Range</span>
-                    <div class="form-group">
-                        <label for="from">From</label>
-                        <input type="date" id="from">
-                    </div>
-                    <div class="form-group">
-                        <label for="to">To</label>
-                        <input type="date" id="to">
-                    </div>
-                </div>
-
-                <div class="contact-details">
-                    <Span>Contact Details</Span>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name">
-                    <label for="phone">Phone:</label>
-                    <input type="tel" id="phone" size="15">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email">
-                </div>
-
-                <input class="submit-enquiry" type="submit" title="Enquire" value="Enquire" id="quote-btn">
-            </form>
-        </div>
+        <div id="quote-request"></div>
 
 
         <div class="testimonial-container">
@@ -184,12 +122,13 @@
 
     </section>
 
-
     <footer></footer>
-
-
-    <script src="./assets/js/components.js"></script>
     <script src="./assets/js/quoteForm.js"></script>
+    <script src="./assets/js/components.js"></script>
+
+    <script>
+        document.getElementById("quote-request").innerHTML = quoteFormElement();
+    </script>
     
 </body>
 

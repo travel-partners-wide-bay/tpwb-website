@@ -1,11 +1,12 @@
 /* =========== Quote form =========== */
-.widget-btn {
+#quote-toggle-btn {
     position: fixed;
     color: var(--white);
     top: 50vh;
     width: 3rem;
     height: 3rem;
     border-radius: 0 50% 50% 0;
+    border: none;
     background-color: var(--red);
     display: grid;
     justify-content: center;
@@ -15,11 +16,11 @@
     transition: var(--link-grow);
 }
 
-.widget-btn:hover {
+#quote-toggle-btn:hover {
     transform: scale(1.1);
 }
 
-.quote-request {
+#quote-request {
     display: none;
     color: var(--light-gray);
     margin-inline: 3rem;
