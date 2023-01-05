@@ -15,10 +15,10 @@ const HUMM90_AFFILIATE_LINK = "https://apply.flexicards.com.au/PromotionSelector
 
 const SITE_PAGES = [
     {name: "Home", path: "./"},
-    {name: "About", path: "about.html"},
-    {name: "Services", path: "services.html"},
-    {name: "Contact", path: "contact.html"},
-    // {name: "Privacy", path: "privacy.html"},
+    {name: "About", path: "./about.html"},
+    {name: "Services", path: "./services.html"},
+    {name: "Contact", path: "./contact.html"},
+    // {name: "Privacy", path: "./privacy.html"},
 ]
 
 
@@ -78,7 +78,7 @@ const socialBanner = () => {
 const navbar = (targetPage = currentPage()) => {
 	
 	let navbarContent = `
-        <a href="/"><img class="brand-logo" src="${NAVBAR_LOGO}" /></a>
+        <a href="/"><img class="brand-logo" src="/${NAVBAR_LOGO}" /></a>
 		<a href="/"<div class="brand-title">${BUSINESS_NAME}</div></a>
         <a href="#" class="toggle-button">
             <span class="bar"></span>
