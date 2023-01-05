@@ -76,6 +76,27 @@
         document.getElementById("contact-card").innerHTML = contactPageInfo();
         document.getElementById("footer").innerHTML = footer();
         navbarToggler();
+
+        const form = document.getElementById("contact-form");
+        form.addEventListener("submit", (e) => {
+            e.preventDefault();
+
+            const contactMessage = {
+                name: form["name"].value,
+                email: form["email"].value,
+                phone: form["phone"].value,
+                message: form["message"].value
+            };
+
+            //Todo: Replace this with EmailJS code
+            alert(`Sorry ${contactMessage.name}, it appears this feature isn't hooked up yet 😢`);
+
+            //Refresh the page and return to top
+            location.reload();
+            window.scrollTo(0, 0);
+            
+        })
+
     </script>
 
 </body>
