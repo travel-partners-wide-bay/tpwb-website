@@ -15,10 +15,10 @@ const HUMM90_AFFILIATE_LINK = "https://apply.flexicards.com.au/PromotionSelector
 
 const SITE_PAGES = [
     {name: "Home", path: "/"},
-    {name: "About", path: "/about.html"},
-    {name: "Services", path: "/services.html"},
-    {name: "Contact", path: "/contact.html"},
-    // {name: "Privacy", path: "/privacy.html"},
+    {name: "About", path: "about.html"},
+    {name: "Services", path: "services.html"},
+    {name: "Contact", path: "contact.html"},
+    // {name: "Privacy", path: "privacy.html"},
 ]
 
 
