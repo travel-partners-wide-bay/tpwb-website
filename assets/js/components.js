@@ -78,7 +78,7 @@ const socialBanner = () => {
 const navbar = (targetPage = currentPage()) => {
 	
 	let navbarContent = `
-        <a href="/"><img class="brand-logo" src="./${NAVBAR_LOGO}" /></a>
+        <a href="/"><img class="brand-logo" src="${NAVBAR_LOGO}" /></a>
 		<a href="/"<div class="brand-title">${BUSINESS_NAME}</div></a>
         <a href="#" class="toggle-button">
             <span class="bar"></span>
@@ -154,7 +154,7 @@ const contactPageInfo = () => {
 const footer = () => {
 	let footerContent = `
 		<footer>
-			<div id="logo"><a href="/"><img src="./${NAVBAR_LOGO}" width="auto" height="180"></a></div>
+			<div id="logo"><a href="/"><img src="${NAVBAR_LOGO}" width="auto" height="180"></a></div>
 			<!-- Footer menu links -->
 			<ul id="nav-menu">`;
 	SITE_PAGES.forEach((page) => {
