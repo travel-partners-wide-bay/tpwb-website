@@ -14,11 +14,11 @@ const SOCIAL_MEDIA_CHANNELS = [
 const HUMM90_AFFILIATE_LINK = "https://apply.flexicards.com.au/PromotionSelector?seller=E1351&ifol=False&Welcome=0&sid=553087ce-7582-49f3-b084-81e44c69f5b8";
 
 const SITE_PAGES = [
-    {name: "Home", path: "/"},
-    {name: "About", path: "/about.html"},
-    {name: "Services", path: "/services.html"},
-    {name: "Contact", path: "/contact.html"},
-    // {name: "Privacy", path: "/privacy.html"},
+    {name: "Home", path: ""},
+    {name: "About", path: "about.html"},
+    {name: "Services", path: "services.html"},
+    {name: "Contact", path: "contact.html"},
+    // {name: "Privacy", path: "privacy.html"},
 ]
 
 
