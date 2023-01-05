@@ -1,133 +1,94 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="649" height="553" viewBox="0 0 649 553">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="581.4" height="530" viewBox="0 0 581.4 530">
   <defs>
-    <path id="path-30" fill-rule="evenodd" d="M266.74717833 215c7.15122402 0 12.9571106 5.80588659 12.9571106 12.9571106v39.66007598c0 7.15122402-5.80588658 12.9571106-12.9571106 12.9571106s-12.95711061-5.80588658-12.95711061-12.9571106V227.9571106c0-7.15122402 5.80588659-12.95711061 12.95711061-12.95711061z"/>
-    <mask id="mask-31" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
-      <rect width="649" height="553" x="0" y="0" fill="white"/>
-      <use fill="black" xlink:href="#path-30"/>
+    <rect id="rect-1" width="581.4" height="530" x="0" y="0"/>
+    <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="581.4" height="530" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#rect-1"/>
     </mask>
-    <path id="path-32" fill-rule="evenodd" d="M377.35665914 215c7.15122402 0 12.95711061 5.80588659 12.95711061 12.9571106v39.66007598c0 7.15122402-5.80588659 12.9571106-12.9571106 12.9571106-7.15122403 0-12.95711062-5.80588658-12.95711062-12.9571106V227.9571106c0-7.15122402 5.8058866-12.95711061 12.95711061-12.95711061z"/>
-    <mask id="mask-33" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
-      <rect width="649" height="553" x="0" y="0" fill="white"/>
-      <use fill="black" xlink:href="#path-32"/>
+    <path id="path-25" fill-rule="evenodd" d="M234.74718023 220c7.15122506 0 12.9571125 5.80588744 12.9571125 12.9571125v25.66009218c0 7.15122507-5.80588744 12.9571125-12.9571125 12.9571125-7.15122507 0-12.95711251-5.80588743-12.95711251-12.9571125v-25.66009217c0-7.15122507 5.80588744-12.95711251 12.9571125-12.95711251z"/>
+    <mask id="mask-26" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="581.4" height="530" x="0" y="0" fill="white"/>
+      <use fill="black" xlink:href="#path-25"/>
     </mask>
-    <ellipse id="ellipse-34" cx="400.814" cy="466.917" rx="49.616" ry="49.496"/>
-    <mask id="mask-35" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
-      <rect width="649" height="553" x="0" y="0" fill="white"/>
-      <use fill="black" xlink:href="#ellipse-34"/>
+    <path id="path-27" fill-rule="evenodd" d="M345.35667724 220c7.15122507 0 12.95711251 5.80588744 12.95711251 12.9571125v25.66009218c-1e-7 7.15122526-5.80588763 12.95711262-12.9571127 12.9571125h2e-7c-7.15122507 0-12.95711251-5.80588743-12.95711251-12.9571125v-25.66009217c0-7.15122507 5.80588744-12.95711251 12.9571125-12.95711251z"/>
+    <mask id="mask-28" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="581.4" height="530" x="0" y="0" fill="white"/>
+      <use fill="black" xlink:href="#path-27"/>
+    </mask>
+    <ellipse id="ellipse-29" cx="368.814" cy="457.917" rx="49.616" ry="49.496"/>
+    <mask id="mask-30" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="581.4" height="530" x="0" y="0" fill="white"/>
+      <use fill="black" xlink:href="#ellipse-29"/>
     </mask>
   </defs>
   <g>
-    <rect width="71" height="101" x="19" y="127" fill="rgb(69,65,66)"/>
-    <rect width="70" height="101" x="326" y="127" fill="rgb(69,65,66)"/>
-    <rect width="71" height="101" x="172" y="127" fill="rgb(69,65,66)"/>
-    <rect width="71" height="101" x="479" y="127" fill="rgb(69,65,66)"/>
-    <rect width="71" height="101" x="402" y="127" fill="rgb(69,65,66)"/>
-    <rect width="70" height="101" x="96" y="127" fill="rgb(69,65,66)"/>
-    <rect width="71" height="101" x="249" y="127" fill="rgb(69,65,66)"/>
-    <rect width="70" height="101" x="556" y="127" fill="rgb(69,65,66)"/>
-    <text font-size="0" style="white-space:pre">
-      <tspan x="421" y="208" fill="rgb(255,255,255)" font-family="Gill Sans MT Condensed" font-size="93" font-weight="400" style="white-space:pre;text-transform:uppercase" letter-spacing="-.266">E</tspan>
-    </text>
-    <text font-size="0" style="white-space:pre">
-      <tspan x="498" y="208" fill="rgb(255,255,255)" font-family="Gill Sans MT Condensed" font-size="93" font-weight="400" style="white-space:pre;text-transform:uppercase" letter-spacing="-.266">R</tspan>
-    </text>
-    <text font-size="0" style="white-space:pre">
-      <tspan x="578" y="208" fill="rgb(255,255,255)" font-family="Gill Sans MT Condensed" font-size="93" font-weight="400" style="white-space:pre;text-transform:uppercase" letter-spacing="-.266">S</tspan>
-    </text>
-    <text font-size="0" style="white-space:pre">
-      <tspan x="342" y="208" fill="rgb(255,255,255)" font-family="Gill Sans MT Condensed" font-size="93" font-weight="400" style="white-space:pre;text-transform:uppercase" letter-spacing="-.266">N</tspan>
-    </text>
-    <text font-size="0" style="white-space:pre">
-      <tspan x="270" y="208" fill="rgb(255,255,255)" font-family="Gill Sans MT Condensed" font-size="93" font-weight="400" style="white-space:pre;text-transform:uppercase" letter-spacing="-.266">T</tspan>
-    </text>
-    <text font-size="0" style="white-space:pre">
-      <tspan x="191" y="208" fill="rgb(255,255,255)" font-family="Gill Sans MT Condensed" font-size="93" font-weight="400" style="white-space:pre;text-transform:uppercase" letter-spacing="-.266">R</tspan>
-    </text>
-    <text font-size="0" style="white-space:pre">
-      <tspan x="115" y="208" fill="rgb(255,255,255)" font-family="Gill Sans MT Condensed" font-size="93" font-weight="400" style="white-space:pre;text-transform:uppercase" letter-spacing="-.266">A</tspan>
-    </text>
-    <text font-size="0" style="white-space:pre">
-      <tspan x="37" y="208" fill="rgb(255,255,255)" font-family="Gill Sans MT Condensed" font-size="93" font-weight="400" style="white-space:pre;text-transform:uppercase" letter-spacing="-.266">P</tspan>
-    </text>
-  </g>
-  <g>
-    <rect width="71" height="100" x="19" y="19" fill="rgb(213,0,50)"/>
-    <rect width="70" height="100" x="326" y="19" fill="rgb(213,0,50)"/>
-    <rect width="71" height="100" x="172" y="19" fill="rgb(213,0,50)"/>
-    <rect width="71" height="99" x="479" y="19" fill="rgb(213,0,50)"/>
-    <rect width="70" height="100" x="96" y="19" fill="rgb(213,0,50)"/>
-    <rect width="71" height="99" x="402" y="19" fill="rgb(213,0,50)"/>
-    <rect width="71" height="100" x="249" y="19" fill="rgb(213,0,50)"/>
-    <rect width="70" height="99" x="556" y="19" fill="rgb(213,0,50)"/>
-    <text font-size="0" style="white-space:pre">
-      <tspan x="423" y="99" fill="rgb(255,255,255)" font-family="Gill Sans MT Condensed" font-size="93" font-weight="400" style="white-space:pre;text-transform:uppercase" letter-spacing="-.266">L</tspan>
-    </text>
-    <text font-size="0" style="white-space:pre">
-      <tspan x="344" y="99" fill="rgb(255,255,255)" font-family="Gill Sans MT Condensed" font-size="93" font-weight="400" style="white-space:pre;text-transform:uppercase" letter-spacing="-.266">E</tspan>
-    </text>
-    <text font-size="0" style="white-space:pre">
-      <tspan x="270" y="99" fill="rgb(255,255,255)" font-family="Gill Sans MT Condensed" font-size="93" font-weight="400" style="white-space:pre;text-transform:uppercase" letter-spacing="-.266">V</tspan>
-    </text>
-    <text font-size="0" style="white-space:pre">
-      <tspan x="191" y="99" fill="rgb(255,255,255)" font-family="Gill Sans MT Condensed" font-size="93" font-weight="400" style="white-space:pre;text-transform:uppercase" letter-spacing="-.266">A</tspan>
-    </text>
-    <text font-size="0" style="white-space:pre">
-      <tspan x="114" y="99" fill="rgb(255,255,255)" font-family="Gill Sans MT Condensed" font-size="93" font-weight="400" style="white-space:pre;text-transform:uppercase" letter-spacing="-.266">R</tspan>
-    </text>
-    <text font-size="0" style="white-space:pre">
-      <tspan x="40" y="99" fill="rgb(255,255,255)" font-family="Gill Sans MT Condensed" font-size="93" font-weight="400" style="white-space:pre;text-transform:uppercase" letter-spacing="-.266">T</tspan>
-    </text>
-  </g>
-  <g>
-    <path fill="rgb(69,65,66)" fill-rule="evenodd" d="M234 257.24497992h178c28.14766625 0 51 22.85233375 51 51V478c0 28.14766625-22.85233375 51-51 51H234c-28.14766625 0-51-22.85233375-51-51V308.24497992c0-28.14766625 22.85233375-51 51-51z"/>
-    <rect width="58.781" height="58.008" x="197.537" y="310.209" fill="rgb(255,255,255)"/>
-    <rect width="58.149" height="58.008" x="260.111" y="310.209" fill="rgb(255,255,255)"/>
-    <rect width="58.149" height="58.008" x="322.052" y="310.209" fill="rgb(255,255,255)" transform="matrix(-1 0 0 1 702.25282167 0)"/>
-    <rect width="58.149" height="58.008" x="383.993" y="310.209" fill="rgb(255,255,255)"/>
-    <rect width="58.781" height="58.008" x="197.537" y="373.892" fill="rgb(255,255,255)"/>
-    <rect width="58.781" height="58.008" x="197.537" y="437.574" fill="rgb(255,255,255)"/>
-    <rect width="57.517" height="58.008" x="260.111" y="437.574" fill="rgb(255,255,255)"/>
-    <rect width="57.517" height="58.008" x="260.111" y="373.892" fill="rgb(255,255,255)"/>
-    <rect width="58.149" height="58.008" x="322.052" y="373.892" fill="rgb(255,255,255)"/>
-    <rect width="58.149" height="58.008" x="322.052" y="437.574" fill="rgb(255,255,255)"/>
-    <rect width="58.149" height="58.008" x="383.993" y="437.574" fill="rgb(255,255,255)"/>
-    <rect width="58.149" height="58.008" x="383.993" y="373.892" fill="rgb(255,255,255)"/>
-    <g>
-      <use fill="rgb(213,0,50)" xlink:href="#path-30"/>
-      <use fill-opacity="0" stroke="rgb(255,255,255)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="8" mask="url(#mask-31)" xlink:href="#path-30"/>
-    </g>
-    <g>
-      <use fill="rgb(213,0,50)" xlink:href="#path-32"/>
-      <use fill-opacity="0" stroke="rgb(255,255,255)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="8" mask="url(#mask-33)" xlink:href="#path-32"/>
-    </g>
-    <text font-size="0" style="white-space:pre">
-      <tspan x="342.278" y="421.566" fill="rgb(213,0,50)" font-family="Gill Sans MT Condensed" font-size="52" font-weight="400" style="white-space:pre;text-transform:uppercase" letter-spacing="-1.25">Y</tspan>
-    </text>
-    <text font-size="0" style="white-space:pre">
-      <tspan x="279.072" y="421.566" fill="rgb(213,0,50)" font-family="Gill Sans MT Condensed" font-size="52" font-weight="400" style="white-space:pre;text-transform:uppercase" letter-spacing="-1.25">A</tspan>
-    </text>
-    <text font-size="0" style="white-space:pre">
-      <tspan x="215.867" y="421.566" fill="rgb(213,0,50)" font-family="Gill Sans MT Condensed" font-size="52" font-weight="400" style="white-space:pre;text-transform:uppercase" letter-spacing="-1.25">B</tspan>
-    </text>
-    <text font-size="0" style="white-space:pre">
-      <tspan x="402.323" y="357.884" fill="rgb(213,0,50)" font-family="Gill Sans MT Condensed" font-size="52" font-weight="400" style="white-space:pre;text-transform:uppercase" letter-spacing="-1.25">E</tspan>
-    </text>
-    <text font-size="0" style="white-space:pre">
-      <tspan x="339.117" y="357.884" fill="rgb(213,0,50)" font-family="Gill Sans MT Condensed" font-size="52" font-weight="400" style="white-space:pre;text-transform:uppercase" letter-spacing="-1.25">D</tspan>
-    </text>
-    <text font-size="0" style="white-space:pre">
-      <tspan x="282.865" y="357.884" fill="rgb(213,0,50)" font-family="Gill Sans MT Condensed" font-size="52" font-weight="400" style="white-space:pre;text-transform:uppercase" letter-spacing="-1.25">I</tspan>
-    </text>
-    <text font-size="0" style="white-space:pre">
-      <tspan x="209.546" y="357.884" fill="rgb(213,0,50)" font-family="Gill Sans MT Condensed" font-size="52" font-weight="400" style="white-space:pre;text-transform:uppercase" letter-spacing="-1.25">W</tspan>
-    </text>
-    <g>
+    <use fill="none" xlink:href="#rect-1"/>
+    <g mask="url(#mask-2)">
       <g>
-        <use fill="rgb(255,255,255)" xlink:href="#ellipse-34"/>
-        <use fill-opacity="0" stroke="rgb(69,65,66)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="20" mask="url(#mask-35)" xlink:href="#ellipse-34"/>
+        <path fill="rgb(255,255,255)" fill-rule="evenodd" d="M0 5h581.4v218H0V5z"/>
+        <path fill="rgb(69,65,66)" fill-rule="evenodd" d="M502.2999878 215h-64.3999939v-97.59997559h64.3999939V215zm-36.69995118-79.90002441h-11.2000122v62.09997558h10.79998779V175.5999756h2.10003662l7 21.59997558h11.5L477.5 172c4.10003662-3.09997559 7.30004883-8.20007324 7.30004883-16.30004883v-.79992676c0-13.90002441-8.10003662-19.80004882-19.2000122-19.80004882z"/>
+        <path fill="rgb(69,65,66)" fill-rule="evenodd" d="M7.30000305 215h64.40000916v-97.59997559H7.30000305V215zm502.2999878 0h64.4000244v-97.59997559h-64.4000244V215zm33.7000122-80.30004883c-8.59997558 0-15.09997558 6.30004883-15.09997558 16.19995117h.2000122v.30004883c0 7.59997559 3 11.59997559 10.39996338 19.90002442 5.10003662 5.79992675 6 8 6 10.79992675v.20007325c0 3.79992675-2.69995117 5.29992675-5.7999878 5.29992675-3 0-6-1.29992675-9.79998778-3.5v11.30004883c3.09997558 1.5 6.7000122 2.59997559 11 2.59997559 8.5 0 15.29998779-6.40002442 15.29998779-16.19995117v-.20007325c0-7.09997558-1.89996338-11-10.39996338-20.79992675-5.10003662-5.90002442-6-7-6-9.90002442V150.5c0-3.40002441 2.59997559-5.30004883 5.59997559-5.30004883 2.79998779 0 4.79998779.80004883 8.2000122 2.80004883v-11.30004883c-2.7000122-1.40002441-5.29998779-2-9.60003662-2zm-508.90000915.40002442h-9.69999695v62.09997558H35.5v-19.5h.09999847c11-.79992676 18.79999543-7.5 18.79999543-21.5V156c0-14.5-8.19999695-20.90002441-20-20.90002441zm439.50004577 20.70007324v-.69995117c0-7.80004883-3.7000122-9.80004883-8.40002441-9.80004883h-.2999878v20.59997558h.5c4.70001221-.09997558 8.20001221-2.79992675 8.20001221-10.09997558z"/>
+        <path fill="rgb(69,65,66)" fill-rule="evenodd" d="M79.1000061 215H143.5v-97.59997559H79.1000061V215zM117 135h-11.5l-11.80000305 62.30004883h10.5l2-12.30004883H116l2 12.30004883h10.7999878L117 135zm-73.40000153 21.59997559v-.19995118c0-7.90002441-3-11.30004882-7.69999694-11.30004882H35.5v22.5h.09999847c4.5-.19995118 8-3.5 8-11z"/>
+        <path fill="rgb(69,65,66)" fill-rule="evenodd" d="M186.8999939 155.10009766v.69995117c0 7.30004883-3.5 10-8.19999695 10.09997558h-.5v-20.59997558H178.5c4.69999695 0 8.3999939 2 8.3999939 9.80004883zm-79.09999085 20.09985351l3.30000305-20.5 3.30000306 20.5h-6.6000061z"/>
+        <path fill="rgb(69,65,66)" fill-rule="evenodd" d="M150.90002441 215h64.40002442v-97.59997559H150.9000244V215zM287 215h-64.40002441v-97.59997559H287V215zm71.80004883 0H294.4000244v-97.59997559h64.40002442V215zM430.5 215h-64.40002441v-97.59997559H430.5V215zm-263.2000122-79.90002441h11.29998779c11.10003662 0 19.2000122 5.90002441 19.2000122 19.80004882v.79992676c0 8.09997559-3.2000122 13.20007324-7.29998779 16.30004883l8.2999878 25.19995117h-11.5l-7-21.59997558h-2.20001221v21.59997558h-10.7999878V135.0999756zm100.60003661 0v10.30004882h-7.59997558v51.79992676H249.5v-51.79992676h-7.59997559V135.0999756h26zm42.89996338 0h10.09997559L331.79998779 166.5v-31.40002441h10.59997559v62.09997558h-9.59997559l-11.40002441-32.90002441v32.90002441h-10.59997559V135.0999756zm99.2999878 0v10.30004882h-12.89990235v15.39990235h11.39990235v10.30004883h-11.39990235v15.80004882h13.19995117v10.29992676h-24V135.0999756h23.69995118z"/>
+        <g>
+          <path fill="rgb(213,0,50)" fill-rule="evenodd" d="M7.30000305 12.40002441h64.40000916V110H7.30000305V12.40002441zm71.80000305 0H143.5V110H79.1000061V12.40002441zm423.19999695 0h-64.40002441V110h64.40002441V12.40002441zm71.7000122 0h-64.4000244V110h64.4000244V12.40002441zm-539.90001678 28H26.5V30.0999756h26.09999847V40.4000244H45v51.79992676H34.09999847V40.40002441zm72.30001069 51.79992676H95.6000061V30.0999756h11.19999695C117.90000915 30.09997559 126 36 126 49.9000244v.79992676C126 58.79992676 122.80000305 63.90002441 118.7000122 67L127 92.19995117h-11.5l-7-21.59997558h-2.09999084v21.59997558z"/>
+          <path fill="rgb(213,0,50)" fill-rule="evenodd" d="M115.09999084 50.10009766v.69995117c0 7.30004883-3.3999939 10-8.19999694 10.09997558h-.5V40.30004883h.30000305c4.69999695 0 8.3999939 2 8.3999939 9.80004883zM179.5 70.19995117l3.3999939-20.5 3.3000183 20.5H179.5z"/>
+          <path fill="rgb(213,0,50)" fill-rule="evenodd" d="M215.2999878 110h-64.3999939V12.40002441h64.3999939V110zm7.3000183 0H287V12.40002441h-64.3999939V110zm71.7999878 0h64.3999939V12.40002441h-64.3999939V110zm71.7000122 0H430.5V12.40002441h-64.3999939V110zM188.7999878 30h-11.49998475L165.5 92.30004883H176L178 80h9.7999878l2 12.30004883h10.8000183L188.7999878 30zM255 70.40002441L249.1000061 30h-11l11.1000061 62.30004883h11.1999817L271.5 30h-10.6000061L255 70.40002441zm83.40002441-40.30004882h-23.7000122v62.09997558h24V81.90002441H325.5V66.0999756h11.40002441V55.79992676H325.5V40.4000244h12.90002441V30.0999756zm59.59997559 0h-10.8999939v62.09997558h22.2999878V81.90002441H398V30.0999756z"/>
+        </g>
       </g>
-      <path fill="rgb(69,65,66)" fill-rule="evenodd" d="M369.99106927 498.74516153l-10.7054965-7.37220733 1.3381889-2.34569967 12.37823473.67020707 18.06554457-21.78149375s-26.76374388-13.73911748-29.1055714-15.07951904c-2.3418275-1.34040155-2.00727986-2.6808016-2.0072798-2.77654448 5e-8-.09574287 2.67637736-3.92545634 5.35275257-4.02119771 2.67637522-.09574137 10.37095275 1.771249 10.37095275 1.771249l5.68730023-5.36159777 3.34546693 3.59035967-2.67637653 2.44144179 8.36367148 1.57976212 5.68730036-5.60095495 3.34546707 3.35100248-2.67637723 3.68609915 10.0364061 1.34040588s20.74191765-18.09539159 23.75284046-19.43579013c3.0109228-1.34039855 4.68365648.0744693 4.68365648.0744693l.33454652.67020031"/>
-      <path fill="rgb(69,65,66)" fill-rule="evenodd" d="M435.29023994 433.52846633s1.34040024 1.67273448 0 4.68365653c-1.34040024 3.01092206-19.43580348 23.75282954-19.43580348 23.75282954l1.34040024 10.03640685 3.68610066-2.67637516 3.3510006 3.34546895-5.60095815 5.68729722 1.57975743 8.36367237 2.4414433-2.67637516 3.59035778 3.34546895-5.36160096 5.68729721s1.86698605 7.69457859 1.77124317 10.37095375c-.09574287 2.67637516-3.92545784 5.35275032-4.02120072 5.35275032-.09574287 0-1.4361431.3345469-2.77654335-2.00728137-1.34040024-2.34182827-15.0795027-29.10557986-15.0795027-29.10557986l-21.78150389 18.06553232.67020012 12.37823512-2.34570042 1.33818758-7.37220132-10.70550064-.33510006-.3345469"/>
+      <g>
+        <path fill="rgb(69,65,66)" fill-rule="evenodd" d="M202 248.24497992h178c28.14766625 0 51 22.85233375 51 51V469c0 28.14766625-22.85233375 51-51 51H202c-28.14766625 0-51-22.85233375-51-51V299.24497992c0-28.14766625 22.85233375-51 51-51z"/>
+        <rect width="58.781" height="58.008" x="165.537" y="301.209" fill="rgb(255,255,255)"/>
+        <rect width="58.149" height="58.008" x="228.111" y="301.209" fill="rgb(255,255,255)"/>
+        <rect width="58.149" height="58.008" x="290.052" y="301.209" fill="rgb(255,255,255)" transform="matrix(-1 0 0 1 638.25282167 0)"/>
+        <rect width="58.149" height="58.008" x="351.993" y="301.209" fill="rgb(255,255,255)"/>
+        <rect width="58.781" height="58.008" x="165.537" y="364.892" fill="rgb(255,255,255)"/>
+        <rect width="58.781" height="58.008" x="165.537" y="428.574" fill="rgb(255,255,255)"/>
+        <rect width="57.517" height="58.008" x="228.111" y="428.574" fill="rgb(255,255,255)"/>
+        <rect width="57.517" height="58.008" x="228.111" y="364.892" fill="rgb(255,255,255)"/>
+        <rect width="58.149" height="58.008" x="290.052" y="364.892" fill="rgb(255,255,255)"/>
+        <rect width="58.149" height="58.008" x="290.052" y="428.574" fill="rgb(255,255,255)"/>
+        <rect width="58.149" height="58.008" x="351.993" y="428.574" fill="rgb(255,255,255)"/>
+        <rect width="58.149" height="58.008" x="351.993" y="364.892" fill="rgb(255,255,255)"/>
+        <g>
+          <use fill="rgb(213,0,50)" xlink:href="#path-25"/>
+          <use fill-opacity="0" stroke="rgb(255,255,255)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="8" mask="url(#mask-26)" xlink:href="#path-25"/>
+        </g>
+        <g>
+          <use fill="rgb(213,0,50)" xlink:href="#path-27"/>
+          <use fill-opacity="0" stroke="rgb(255,255,255)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="8" mask="url(#mask-28)" xlink:href="#path-27"/>
+        </g>
+        <text font-size="0" style="white-space:pre">
+          <tspan x="303.635" y="409" fill="rgb(213,0,50)" font-family="Dubai Medium" font-size="52" font-weight="500" style="white-space:pre;text-transform:uppercase" letter-spacing="-1.25">Y</tspan>
+        </text>
+        <text font-size="0" style="white-space:pre">
+          <tspan x="240.777" y="409" fill="rgb(213,0,50)" font-family="Dubai Medium" font-size="52" font-weight="500" style="white-space:pre;text-transform:uppercase" letter-spacing="-1.25">A</tspan>
+        </text>
+        <text font-size="0" style="white-space:pre">
+          <tspan x="179.973" y="409" fill="rgb(213,0,50)" font-family="Dubai Medium" font-size="52" font-weight="500" style="white-space:pre;text-transform:uppercase" letter-spacing="-1.25">B</tspan>
+        </text>
+        <text font-size="0" style="white-space:pre">
+          <tspan x="364.02" y="345.528" fill="rgb(213,0,50)" font-family="Dubai Medium" font-size="52" font-weight="500" style="white-space:pre;text-transform:uppercase" letter-spacing="-1.25">E</tspan>
+        </text>
+        <text font-size="0" style="white-space:pre">
+          <tspan x="302.231" y="345" fill="rgb(213,0,50)" font-family="Dubai Medium" font-size="52" font-weight="500" style="white-space:pre;text-transform:uppercase" letter-spacing="-1.25">D</tspan>
+        </text>
+        <text font-size="0" style="white-space:pre">
+          <tspan x="250.631" y="345" fill="rgb(213,0,50)" font-family="Dubai Medium" font-size="52" font-weight="500" style="white-space:pre;text-transform:uppercase" letter-spacing="-1.25">I</tspan>
+        </text>
+        <text font-size="0" style="white-space:pre">
+          <tspan x="171.705" y="345" fill="rgb(213,0,50)" font-family="Dubai Medium" font-size="52" font-weight="500" style="white-space:pre;text-transform:uppercase" letter-spacing="-1.25">W</tspan>
+        </text>
+        <g>
+          <g>
+            <use fill="rgb(255,255,255)" xlink:href="#ellipse-29"/>
+            <use fill-opacity="0" stroke="rgb(69,65,66)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="20" mask="url(#mask-30)" xlink:href="#ellipse-29"/>
+          </g>
+          <path fill="rgb(69,65,66)" fill-rule="evenodd" d="M337.99106927 489.74516153l-10.7054965-7.37220733 1.3381889-2.34569967 12.37823473.67020707 18.06554457-21.78149375s-26.76374388-13.73911748-29.1055714-15.07951904c-2.3418275-1.34040155-2.00727986-2.6808016-2.0072798-2.77654448 5e-8-.09574287 2.67637736-3.92545634 5.35275257-4.02119771 2.67637522-.09574137 10.37095275 1.771249 10.37095275 1.771249l5.68730023-5.36159777 3.34546693 3.59035967-2.67637653 2.44144179 8.36367148 1.57976212 5.68730036-5.60095495 3.34546707 3.35100248-2.67637723 3.68609915 10.0364061 1.34040588s20.74191765-18.09539159 23.75284046-19.43579013c3.0109228-1.34039855 4.68365648.0744693 4.68365648.0744693l.33454652.67020031"/>
+          <path fill="rgb(69,65,66)" fill-rule="evenodd" d="M403.29023994 424.52846633s1.34040024 1.67273448 0 4.68365653c-1.34040024 3.01092206-19.43580348 23.75282954-19.43580348 23.75282954l1.34040024 10.03640685 3.68610066-2.67637516 3.3510006 3.34546895-5.60095815 5.68729722 1.57975743 8.36367237 2.4414433-2.67637516 3.59035778 3.34546895-5.36160096 5.68729721s1.86698605 7.69457859 1.77124317 10.37095375c-.09574287 2.67637516-3.92545784 5.35275032-4.02120072 5.35275032-.09574287 0-1.4361431.3345469-2.77654335-2.00728137-1.34040024-2.34182827-15.0795027-29.10557986-15.0795027-29.10557986l-21.78150389 18.06553232.67020012 12.37823512-2.34570042 1.33818758-7.37220132-10.70550064-.33510006-.3345469"/>
+        </g>
+      </g>
     </g>
   </g>
 </svg>
