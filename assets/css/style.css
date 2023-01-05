@@ -35,6 +35,7 @@
     --feature-image-height: 20rem;
 
     --mobile-viewport: 350px;
+    color: var(--text-dark);
 }
 
 * {
@@ -545,7 +546,6 @@ footer>#attribution>a:hover {
 
 .card {
     background-color: whitesmoke;
-    height: var(--feature-tile-width);
     width: var(--feature-tile-width);
     box-shadow: var(--box-shadow-light);
     border-radius: .5rem;
@@ -554,6 +554,7 @@ footer>#attribution>a:hover {
     text-align: center;
     color: var(--text-dark);
     font-size: large;
+    padding: 1rem;
 }
 
 
@@ -578,6 +579,19 @@ footer>#attribution>a:hover {
     grid-row: 2;
     grid-column: 1/2;
     line-height: 1.5;
+}
+
+.about>.content>p>a {
+    text-decoration: none;
+    font-weight: bold;
+    color: inherit;
+    transition: var(--link-grow);
+}
+
+.about>.content>p>a:hover {
+        color: var(--footer-link-hover);
+        transform: scale(1.1);
+        display: inline-block;
 }
 
 .about>img {
